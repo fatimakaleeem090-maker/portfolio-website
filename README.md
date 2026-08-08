@@ -52,3 +52,11 @@ portfolio-website/
 │   └── portfolio report PDF
 │
 └── README.md
+
+## How to Run the Website
+Download or clone this repository.
+Open the project folder.
+Make sure index.html, style.css, and the images folder are present.
+Open index.html in a web browser.
+The portfolio website will load in the browser.
+
