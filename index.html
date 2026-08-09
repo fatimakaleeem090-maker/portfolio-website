@@ -11,16 +11,18 @@
     <nav>
         <h2 class="logo">Portfolio</h2>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#projects">Projects</a></li> 
             <li><a href="#contact">Contact</a></li>
+        
         </ul>
     </nav>
     <main>
-        <section class="hero">
+        <section class="hero" id="home"> 
+
             <div class="hero-text">
                 <h3>Hello, I'm</h3>
                 <h1>Fatima Kaleem</h1>
@@ -32,8 +34,8 @@ I enjoy learning new technologies and building creative projects.
                 <a href="#contact" class="btn">Contact Me</a>
             </div>
             <div class="hero-image">
-                <img src="profile.jpg" alt="Profile">
-            </div>
+    <img src="image/profile.jpeg" alt="Profile">
+</div>
 
         </section>
         <section class="about"  id="about">
@@ -92,19 +94,26 @@ I enjoy learning new technologies and building creative projects.
 
 </section>
 
-    <section class="projects" id="projects">
 
-    <h2>MY NEW PROJECTS TEST</h2>
+            <section class="projects" id="projects">
+
+    <h2>My Projects</h2>
 
     <div class="projects-container">
 
         <div class="project-card">
-            <h3>Student Record Management System</h3>
+      <img src="image/student_record_thumbnail.png"
+     alt="Student Record Management System thumbnail">
+
+    <h3>Student Record Management System</h3>
+
             <p class="project-tech">Java + SQL</p>
+
             <p>
                 A Java application for storing, updating, and deleting
                 student records using a MySQL database.
             </p>
+
             <p>
                 Applied object-oriented design principles and JDBC
                 for database connectivity.
@@ -113,12 +122,19 @@ I enjoy learning new technologies and building creative projects.
 
 
         <div class="project-card">
-            <h3>Automatic Plant Irrigation System</h3>
+
+    <img src="image/plant_irrigation_thumbnail.png"
+     alt="Automatic Plant Irrigation System thumbnail">
+
+    <h3>Automatic Plant Irrigation System</h3>
+
             <p class="project-tech">Digital Logic Design</p>
+
             <p>
                 A team project that automated plant irrigation using
                 sensors and relays based on soil moisture levels.
             </p>
+
             <p>
                 Secured 1st place for innovation and functionality.
             </p>
@@ -126,31 +142,46 @@ I enjoy learning new technologies and building creative projects.
 
 
         <div class="project-card">
-            <h3>File Management System</h3>
+     <img src="image/file_management_thumbnail.png"
+         alt="File Management System thumbnail">
+
+    <h3>File Management System</h3>
+
             <p class="project-tech">Operating Systems • Ubuntu</p>
+
             <p>
                 A file management system built on Ubuntu implementing
                 core file operations such as create, read, update,
                 and delete.
             </p>
+
             <p>
                 Explored file handling and system-level operations
                 within a Linux environment.
             </p>
         </div>
 
+<div class="project-card">
 
-        <div class="project-card">
-            <h3>Customer Churn Predictor</h3>
+   <img src="image/customer_churn_thumbnail.png"
+         alt="Customer Churn Predictor thumbnail">
+
+
+    <h3>Customer Churn Predictor</h3>
+        
+
             <p class="project-tech">AI • Python</p>
+
             <p>
                 A machine learning model developed to predict customer
                 churn using logistic regression.
             </p>
+
             <p>
                 Used scikit-learn, pandas, and NumPy for data
                 preprocessing, model training, and evaluation.
             </p>
+
             <p>
                 Evaluated model performance using accuracy as the
                 primary metric.
@@ -161,16 +192,43 @@ I enjoy learning new technologies and building creative projects.
 
 </section>
 
-
-
-</section>
-
 <section class="contact" id="contact">
 
     <h2>Contact Me</h2>
 
     <p>I'd love to hear from you.</p>
 
+<div class="contact-info">
+
+    <p>
+    <strong>Email:</strong>
+    <a href="mailto:fatimakaleeem090@gmail.com">
+        fatimakaleeem090@gmail.com
+    </a>
+</p>
+
+<p>
+    <strong>Phone:</strong>
+    <a href="tel:+923305070907">
+        +92 3305070907
+    </a>
+</p>
+
+    <p><strong>Location:</strong> Karachi, Pakistan</p>
+
+    <p>
+    <strong>LinkedIn:</strong>
+    <a href="https://www.linkedin.com/in/famy-mirza" target="_blank">
+        LinkedIn
+    </a>
+</p>
+
+    <p>
+        <strong>GitHub:</strong>
+        <a href="https://github.com/fatimakaleeem090-maker" target="_blank">GitHub</a>
+    </p>
+
+</div>
     <form class="contact-form">
 
         <label for="name">Name</label>
@@ -179,6 +237,8 @@ I enjoy learning new technologies and building creative projects.
         <label for="email">Email</label>
         <input type="email" id="email" placeholder="Enter your email">
 
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Enter subject">
         <label for="message">Message</label>
         <textarea id="message" placeholder="Write your message"></textarea>
 
@@ -194,10 +254,9 @@ I enjoy learning new technologies and building creative projects.
 
     <div class="social-links">
 
-        <a href="#">GitHub</a>
+        <a href="https://github.com/fatimakaleeem090-maker" target="_blank">GitHub</a>
 
-        <a href="#">LinkedIn</a>
-
+        <a href="https://www.linkedin.com/in/famy-mirza" target="_blank">LinkedIn</a>
     </div>
 
 </footer>
